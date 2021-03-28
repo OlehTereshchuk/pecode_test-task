@@ -6,7 +6,7 @@ const NavigationPanel = () => {
 
   return (
     <div className="navigation">
-      <Tab title="Characters" path="/characters" />
+      <Tab title="Characters" path="/" />
       <Tab title="Episodes" path="/episodes" />
       <Tab title="Locations" path="/locations" />
       <Tab title="My watch list" path="/list" />
