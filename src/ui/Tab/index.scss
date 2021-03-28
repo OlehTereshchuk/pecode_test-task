@@ -1,0 +1,12 @@
+.tab {
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.5s;
+
+  &:hover {
+    background-color: #151515;
+  }
+}
