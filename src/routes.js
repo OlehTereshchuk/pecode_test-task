@@ -8,12 +8,12 @@ import ListPage from './pages/ListPage';
 const useRoutes = () => {
   return (
     <Switch>
-        <Route path="/" component={CharactersPage} />
+        <Route path="/characters" component={CharactersPage} />
         <Route path="/episodes" component={EpisodesPage} />
         <Route path="/locations" component={LocationsPage} />
         <Route path="/list" component={ListPage} />
 
-        <Redirect to="/" />
+        <Redirect to="/characters" />
     </Switch>
   );
 }
